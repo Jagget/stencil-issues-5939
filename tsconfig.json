@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["../*"],
+      "~/*": ["./*"]
+    },
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src/",
+    "rootDirs": ["src/"],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "target": "es2017",
+    "lib": ["es6", "dom"]
+  },
+  "include": ["src/components", "src/interfaces"],
+  "exclude": ["node_modules"]
+}

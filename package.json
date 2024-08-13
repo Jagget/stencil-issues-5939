@@ -1,0 +1,28 @@
+{
+  "name": "stencil-issues-5939",
+  "version": "1.0.0",
+  "description": "stencil-issues-5939",
+  "main": "dist/index.cjs.js",
+  "collection": "dist/collection/collection-manifest.json",
+  "scripts": {
+    "build": "stencil build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jagget/stencil-issues-5939.git"
+  },
+  "author": "Jagget",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jagget/stencil-issues-5939/issues"
+  },
+  "homepage": "https://github.com/Jagget/stencil-issues-5939#readme",
+  "dependencies": {
+    "@stencil/core": "^4.20.0",
+    "chart.js": "^4.4.3"
+  },
+  "packageManager": ">= npm@10.0.0",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
